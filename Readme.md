@@ -40,7 +40,11 @@ The solution automatically processes images as they are uploaded to an S3 bucket
 
 ## 3. Solution Architecture
 
-### 3.1 System Components
+### 3.1 Architecture Diagram
+
+![Image](https://github.com/user-attachments/assets/3d26b627-2dc8-42a0-a9fd-dcad71d54a80)
+
+### 3.2 System Components
 
 - **Source S3 Bucket:** Receives uploaded images, triggers SQS notification.
 - **SQS Queue:** Buffers events between S3 and Lambda.
